@@ -52,7 +52,7 @@ namespace System.Collections.Generic
             return GetHashCode ((T)obj);
         }
 
-        public bool Equals(object x, object y)
+        public new bool Equals(object x, object y)
         {
 
             if (x == null || y == null) {
